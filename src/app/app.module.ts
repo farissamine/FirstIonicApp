@@ -13,7 +13,13 @@ import { AgmCoreModule } from '@agm/core';
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
-  imports: [AgmCoreModule.forRoot({/*apiKey: 'Your Key Here'*/}),  BrowserModule, IonicModule.forRoot(), AppRoutingModule],
+  imports: [
+    AgmCoreModule.forRoot({
+      /*apiKey: 'Your Key Here'*/
+    }),
+    BrowserModule,
+    IonicModule.forRoot(),
+    AppRoutingModule],
   providers: [
     StatusBar,
     SplashScreen,
